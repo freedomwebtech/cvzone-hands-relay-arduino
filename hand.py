@@ -54,7 +54,7 @@ while True:
     count += 1
     if count % 14 != 0:
         continue
-
+    img=cv2.flip(img,-1) 
     # Find the hand and its landmarks
     hands, img = detector.findHands(img)  # with draw
    
