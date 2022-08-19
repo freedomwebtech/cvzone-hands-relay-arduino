@@ -1,0 +1,9 @@
+install pi apps:- 
+  wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+
+
+esp32
+
+
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
